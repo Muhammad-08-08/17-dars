@@ -1,77 +1,207 @@
-.container {
-  max-width: 1920px;
-  height: 8000px;
-  background-color: rgb(35, 32, 32);
-  margin: 0 auto;
-  padding: 64px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: lightgray;
 }
 
-header nav {
-  width: 1760px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 200px;
+.container {
+  max-width: 1440px;
+  height: 8000px;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
 }
-header nav ul {
+.container header {
+  max-width: 1440px;
+  height: 1200px;
+  padding-top: 61px;
+  position: relative;
+}
+.container header nav {
   display: flex;
-  gap: 25px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.container header nav ul {
+  display: flex;
+  gap: 30px;
   list-style-type: none;
 }
-header nav a {
+.container header nav ul a {
+  text-decoration: none;
   font-family: Gilroy;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.76px;
-  color: #ffffff;
-  text-decoration: none;
+  color: white;
 }
-header nav a:hover {
+.container header nav ul a:hover {
   color: orange;
 }
-header nav .nav-icon {
+.container header nav .nav-icon {
   display: flex;
-  gap: 7px;
   align-items: center;
+  gap: 15px;
 }
-header nav .nav-icon p {
+.container header nav .nav-icon p {
   font-family: Gilroy;
   font-size: 17px;
   line-height: 20.55px;
   color: white;
 }
-header main {
+.container header main {
+  height: 600px;
+  margin-top: 400px;
+  padding: 1;
   display: flex;
-  max-width: 1920px;
+  align-items: center;
+  justify-content: space-around;
 }
-header main .follow {
+.container header main .follow {
   display: flex;
-  gap: 15px;
+  align-items: center;
+  position: absolute;
+  top: 450px;
+  left: 60px;
+  gap: 20px;
   transform: rotate(90deg);
 }
-header main .follow p {
+.container header main .follow p {
+  font-size: 30px;
+  color: orange;
+}
+.container header main .main-h1 {
+  max-width: 750px;
+  height: 310px;
+  position: absolute;
+  top: 350px;
+}
+.container header main .main-h1 p {
+  color: white;
+  font-size: 18px;
+}
+.container header main .main-h1 .h1-chiziq {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.container header main .main-h1 .h1-chiziq .h1-chiziq1 {
+  width: 70px;
+  height: 4px;
+  background-color: #fbd784;
+}
+.container header main .main-h1 .h1-chiziq p {
   font-family: Gilroy;
   font-size: 18px;
-  font-weight: 700;
-  line-height: 21.76px;
-  color: white;
+  font-weight: 800;
+  line-height: 22.05px;
+  letter-spacing: 6px;
+  color: #fbd784;
 }
-header main .follow img {
-  width: 20px;
+.container header main .main-h1 h1 {
+  font-family: Chronicle Display;
+  font-size: 68px;
+  font-weight: 600;
+  line-height: 100px;
+  color: #ffffff;
+}
+.container header main .main-text {
+  display: flex;
+  position: absolute;
+  top: 400px;
+  right: 100px;
+}
+.container header main .main-text p {
+  font-size: 30px;
+  color: white;
+  margin-right: 40px;
+}
+.container header main .main-text .bir {
+  margin-left: 25px;
+}
+.container header main .main-text .main-text-child {
+  position: absolute;
+  right: 0px;
+  width: 4px;
+  height: 150px;
+  background-color: white;
 }
 
-@media (max-width: 621px) {
-  nav a {
-    display: none;
+@media (max-width: 1122px) {
+  main {
+    height: 600px;
+    margin-top: 400px;
+    padding: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
-  nav p {
-    display: none;
+  main .follow {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transform: rotate(90deg);
   }
-  .nav-icon1 {
-    display: none;
+  main .follow p {
+    font-size: 30px;
+    color: orange;
+  }
+  main .main-h1 {
+    max-width: 750px;
+    height: 310px;
+  }
+  main .main-h1 p {
+    color: white;
+    font-size: 18px;
+  }
+  main .main-h1 .h1-chiziq {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  main .main-h1 .h1-chiziq .h1-chiziq1 {
+    width: 70px;
+    height: 4px;
+    background-color: #fbd784;
+  }
+  main .main-h1 .h1-chiziq p {
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22.05px;
+    letter-spacing: 6px;
+    color: #fbd784;
+  }
+  main .main-h1 h1 {
+    font-family: Chronicle Display;
+    font-size: 68px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #ffffff;
+  }
+  main .main-text {
+    display: flex;
+    position: absolute;
+    top: 500px;
+  }
+  main .main-text p {
+    font-size: 30px;
+    color: white;
+    margin-right: 40px;
+  }
+  main .main-text .bir {
+    margin-left: 25px;
+  }
+  main .main-text .main-text-child {
+    width: 4px;
+    height: 150px;
+    background-color: white;
   }
 }/*# sourceMappingURL=main.css.map */
