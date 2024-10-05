@@ -1,5 +1,5 @@
 .container {
-  width: 1920px;
+  max-width: 1920px;
   height: 8000px;
   background-color: rgb(35, 32, 32);
   margin: 0 auto;
@@ -10,9 +10,6 @@ body {
   background-color: lightgray;
 }
 
-header {
-  width: 1920px;
-}
 header nav {
   width: 1760px;
   display: flex;
@@ -48,76 +45,26 @@ header nav .nav-icon p {
   color: white;
 }
 header main {
-  width: 1920px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  max-width: 1920px;
 }
 header main .follow {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  gap: 15px;
   transform: rotate(90deg);
 }
 header main .follow p {
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.76px;
   color: white;
 }
 header main .follow img {
-  width: 20.92px;
-  height: 24px;
-}
-header main .main-text {
-  width: 950px;
-  height: 310px;
-}
-header main .main-text h1 {
-  color: white;
-  font-family: Chronicle Display;
-  font-size: 88px;
-  font-weight: 600;
-  line-height: 100px;
-}
-header main .main-text p {
-  font-size: 18px;
-  color: white;
-}
-header main .main-flex {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-}
-header main .main-flex p {
-  font-size: 29px;
-  color: white;
-}
-header main .main-flex .bir {
-  margin-left: 30px;
-}
-header main .main-flex .flex-chiziq {
-  width: 4px;
-  height: 220px;
-  background-color: white;
-}
-header main .main-yellow {
-  display: flex;
-  gap: 30px;
-  align-items: center;
-}
-header main .main-yellow .main-chiziq {
-  width: 80px;
-  height: 4px;
-  background-color: #fbd784;
-}
-header main .main-yellow p {
-  font-family: Gilroy;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 22.05px;
-  letter-spacing: 6px;
-  color: #fbd784;
+  width: 20px;
 }
 
-@media (max-width: 530px) {
+@media (max-width: 621px) {
   nav a {
     display: none;
   }
