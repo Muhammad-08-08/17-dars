@@ -1,1 +1,22 @@
-/*# sourceMappingURL=main.css.map */
+.container {
+  width: 1920px;
+  height: 8000px;
+  background-image: url(../rasmlar/VG.png);
+  margin: 0 auto;
+}
+
+body {
+  background-color: lightgray;
+}
+
+nav {
+  width: 1760px;
+  height: 25px;
+}
+
+main {
+  width: 950px;
+  height: 310px;
+  background-image: url(../rasmlar/Content.png);
+  color: white;
+}/*# sourceMappingURL=main.css.map */
