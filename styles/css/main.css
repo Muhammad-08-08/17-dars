@@ -135,73 +135,7 @@ body {
 }
 
 @media (max-width: 1122px) {
-  main {
-    height: 600px;
-    margin-top: 400px;
-    padding: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  main .follow {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    transform: rotate(90deg);
-  }
-  main .follow p {
-    font-size: 30px;
-    color: orange;
-  }
-  main .main-h1 {
-    max-width: 750px;
-    height: 310px;
-  }
-  main .main-h1 p {
-    color: white;
-    font-size: 18px;
-  }
-  main .main-h1 .h1-chiziq {
-    display: flex;
-    gap: 15px;
-    align-items: center;
-  }
-  main .main-h1 .h1-chiziq .h1-chiziq1 {
-    width: 70px;
-    height: 4px;
-    background-color: #fbd784;
-  }
-  main .main-h1 .h1-chiziq p {
-    font-family: Gilroy;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 22.05px;
-    letter-spacing: 6px;
-    color: #fbd784;
-  }
-  main .main-h1 h1 {
-    font-family: Chronicle Display;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 100px;
-    color: #ffffff;
-  }
-  main .main-text {
-    display: flex;
-    position: absolute;
-    top: 500px;
-  }
-  main .main-text p {
-    font-size: 30px;
-    color: white;
-    margin-right: 40px;
-  }
-  main .main-text .bir {
-    margin-left: 25px;
-  }
-  main .main-text .main-text-child {
-    width: 4px;
-    height: 150px;
-    background-color: white;
+  h1 {
+    font-size: 38px;
   }
 }/*# sourceMappingURL=main.css.map */
